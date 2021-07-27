@@ -1,13 +1,159 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  background-color: rgb(197, 255, 139);
+  /* border: 2px solid yellowgreen; */
+  width: 700px;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: rgb(193, 224, 163);
+  color: rgb(0, 58, 4);
+  /* border: 2px solid grey; */
+  padding: 0 0.5em;
+  margin: 0.5em;
+  display: flex;
+}
+
+.navbar h2 {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-heading {
+  flex: 1;
+}
+
+.navbar-list {
+  flex: 1;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0.5em;
+}
+
+.navbar a {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 600;
+  color: rgb(0, 58, 4);
+  text-decoration: none;
+  padding: 0.5em;
+  font-size: 1.1em;
+}
+
+.navbar a:hover {
+  color: rgb(128, 141, 13);
+}
+
+.home {
+  margin: 0 0.5em 0.5em;
+  padding: 0.5em 0.5em;
+  background-color: rgb(226, 255, 194);
+  color: rgb(27, 94, 32);
+  /* border: 2px solid grey; */
+}
+
+.home h3,
+label {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.home select {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 600;
+}
+
+.home option {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 600;
+}
+
+.home input {
+  background-color: rgb(0, 58, 4);
+  color: rgb(193, 224, 163);
+  font-family: 'Cairo', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  border-radius: 5px;
+  margin-top: 0.5em;
+  padding: 0 0.5em;
+}
+
+.joke-list {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 600;
+  margin: 0.5em;
+  padding: 0 0.5em;
+  background-color: rgb(231, 255, 94);
+  color: rgb(82, 88, 23);
+  /* border: 2px solid rgb(39, 145, 44); */
+}
+
+.joke-list-ques {
+  margin: 0;
+  padding: 0;
+}
+
+.joke-list-ans {
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 600;
+  color: rgb(82, 88, 23);
+  margin: 0.5em;
+  padding: 0;
+}
+
+.about p {
+  margin: 0;
+  padding: 0;
+}
+
+.about a {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 600;
+  color: rgb(0, 58, 4);
+}
+
+.about a:hover {
+  color: rgb(128, 141, 13);
+}
+
+.contact {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 600;
+  color: rgb(82, 88, 23);
+  margin: 0.5em;
+  padding: 0;
+}
+
+.contact p {
+  margin: 0;
+  padding: 0;
+}
+
+.contact a {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 600;
+  color: rgb(0, 58, 4);
+}
+
+.contact a:hover {
+  color: rgb(128, 141, 13);
 }
